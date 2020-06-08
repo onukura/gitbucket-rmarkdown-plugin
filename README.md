@@ -1,5 +1,7 @@
 # gitbucket-rmarkdown-plugin
 
+[![Build Status](https://travis-ci.org/onukura/gitbucket-rmarkdown-plugin.svg?branch=master)](https://travis-ci.org/onukura/gitbucket-rmarkdown-plugin)
+
 A GitBucket plugin for rendering R Markdown file.
 
 ## Install
