@@ -11,7 +11,7 @@ class Plugin extends gitbucket.core.plugin.Plugin {
   override val pluginName: String = "R markdown renderer Plugin"
   override val description: String = "Rendering R markdown files."
   override val versions: List[Version] = List(
-    new Version("1.0.0"),
+    new Version("0.1.0"),
   )
 
   private[this] var renderer: Option[RMarkdownRenderer] = None
