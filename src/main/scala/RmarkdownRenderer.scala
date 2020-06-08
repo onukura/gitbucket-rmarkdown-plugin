@@ -4,6 +4,7 @@ import play.twirl.api.Html
 
 class RMarkdownRenderer extends Renderer {
 
+  // TODO needs header parse
   def render(request: RenderRequest): Html = {
     import request._
     Html(
