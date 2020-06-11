@@ -4,8 +4,9 @@
 
 A GitBucket plugin for rendering R Markdown file with `.Rmd` or `.rmd` extension.
 
-# Screenshot
+## Screenshot
 
+![screenshot](https://github.com/onukura/gitbucket-rmarkdown-plugin/blob/assets/screenshot.png?raw=true)
 
 
 ## Install
