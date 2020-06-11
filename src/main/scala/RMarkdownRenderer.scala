@@ -21,7 +21,7 @@ class RMarkdownRenderer extends Renderer {
               enableAnchor: Boolean)(implicit context: Context): String = {
 
     val content = fileContent
-      .replaceAll("^---\\s*\ntitle:(.*)","# $1\n\n```")
+      .replaceAll("---\\s*\ntitle:(.*)","# $1\n\n```")
       .replaceAll("\n---\\s*\n", "\n```\n")
 
     val rendered = markdown(content, repository, branch, enableWikiLink, enableRefsLink, enableLineBreaks = true)
